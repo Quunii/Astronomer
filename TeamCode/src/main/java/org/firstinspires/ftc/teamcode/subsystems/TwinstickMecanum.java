@@ -58,7 +58,7 @@ public class TwinstickMecanum implements Subsystem {
 
     @Override
     public void update() {
-        setPower(driveController.getLeftStickY(), driveController.getLeftStickX(), driveController.getRightStickX());
+            setPower(driveController.getLeftStickY(), driveController.getLeftStickX(), driveController.getRightStickX());
     }
 
 }
